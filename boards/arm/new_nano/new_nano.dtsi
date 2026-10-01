@@ -103,7 +103,7 @@
         gpio-hog;
         gpios = <14 GPIO_ACTIVE_HIGH>;
         output-low;
-        line-name = "boost_enable_gpio";
+        line-name = "boost_enable_gpio"; //
     };
 };
 
