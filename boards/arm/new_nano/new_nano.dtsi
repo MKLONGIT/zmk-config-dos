@@ -101,7 +101,7 @@
     status = "okay";
     boost_enable_gpio: boost_enable_gpio {
         gpio-hog;
-        gpios = <14 GPIO_ACTIVE_LOW>;
+        gpios = <14 GPIO_ACTIVE_HIGH>;
         output-low;
         line-name = "test-gpio";
     };
